@@ -37,25 +37,18 @@
  */
 
 
-This directory contains InChI Software source codes.
-It also contains examples of InChI API usage, for C 
-('inchi_main', 'mol2inchi', 'test_ixa'; see projects 
-for MS Visual Studio 2008 in 'vc9' and for gcc/Linux 
-in 'gcc' subdirs) and for Python 3 ('python_sample'). 
+This directory contains Python demo application illustrating how the InChI 
+Software Library functions (API) may be called from within Python. 
+It reads SD/MOL input file and produces InChI strings and, optionally, 
+generates InChIKey's.
 
-Also supplied are InChI API Library source codes and 
-related projects/makefiles.
+The program uses Python 3; tested with Python 3.4.2 64 bit under Windows 7 64-bit 
+and Python 3.4.0 under Ubuntu 14.04 LTS.
 
-For more details, please refer to Release Notes
-(file 'RelNotes.pdf', Section 'Distribution package)
-and files 'readme.txt' in sub-directories. 
+It is assumed that under MS Windows the InChI library name is 'libinchi.dll' 
+while under Linux it is '/usr/lib/libinchi.so.1'.
 
-The portion of this distribution, the files sha2.c and sha2.h
-are Copyright (C) Brainspark B.V., and are distributed under 
-the terms of the same  IUPAC/InChI-Trust Licence for the 
-International Chemical Identifier (InChI) Software version 1.0.
+Note that this Python program is not indended to be a production InChI generator. 
+The example is provided for illustrative purposes only. 
 
-
-The text of IUPAC/InChI-Trust Licence for the 
-International Chemical Identifier (InChI) Software version 1.0
-is included (the file LICENCE) in this distribution.
+For usage instructions, type "mol2inchi.py" without parameters.

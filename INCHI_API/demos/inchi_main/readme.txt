@@ -37,25 +37,13 @@
  */
 
 
-This directory contains InChI Software source codes.
-It also contains examples of InChI API usage, for C 
-('inchi_main', 'mol2inchi', 'test_ixa'; see projects 
-for MS Visual Studio 2008 in 'vc9' and for gcc/Linux 
-in 'gcc' subdirs) and for Python 3 ('python_sample'). 
+This directory contains example of using "classic" InChI API.
 
-Also supplied are InChI API Library source codes and 
-related projects/makefiles.
+The source codes are placed in sub-directory 'src';
+gcc/Linux makefiles in sub-directory 'gcc';
+MS VS 2008 project is placed in sub-directory 'vc9'.
 
-For more details, please refer to Release Notes
-(file 'RelNotes.pdf', Section 'Distribution package)
-and files 'readme.txt' in sub-directories. 
+The created binaries are saved in upper-level directory 'bin'.
 
-The portion of this distribution, the files sha2.c and sha2.h
-are Copyright (C) Brainspark B.V., and are distributed under 
-the terms of the same  IUPAC/InChI-Trust Licence for the 
-International Chemical Identifier (InChI) Software version 1.0.
-
-
-The text of IUPAC/InChI-Trust Licence for the 
-International Chemical Identifier (InChI) Software version 1.0
-is included (the file LICENCE) in this distribution.
+The demo program inchi_main are practically the same as its 
+predecessor in previous InChI Software version, 1.04.
